@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:layout_gravity="center_vertical|fill_vertical|center_horizontal">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login.introduzca_dni"
+            android:textAppearance="?android:attr/textAppearanceLarge" android:layout_gravity="left|center_vertical" android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/textDNI"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_gravity="center_vertical|center_horizontal" android:layout_margin="10dp" android:inputType="number" android:text="25180370">
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/login.introduzca_pin"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/textPIN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:inputType="textPassword"
+            android:width="60dp" android:text="5117"/>
+
+        <Button
+            android:id="@+id/botLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login.continuar" android:layout_gravity="bottom|center_horizontal"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, IbercajaDirectoActivity!</string>
+    <string name="app_name">ID_Checker</string>
+    <string name="login.introduzca_dni">Introduzca el dni</string>
+    <string name="login.continuar">Continuar</string>
+	<string name="login.dni_ejemplo">00000000Z</string>
+	<string name="login.introduzca_pin">Introduzca el pin</string>
+	<string name="principal.saldo">Saldo de las cuentas</string>
+	<string name="principal.movimientos">Movimientos</string>
+	<string name="saldo.info">Listado de cuentas</string>
+	<string name="saldo.info2">Pincha para ver los movimientos</string>
+	<string name="movimientos.fecha_desde">Desde</string>
+	<string name="movimientos.fecha_hasta">Hasta</string>
+	<string name="movimientos.ingresos">Ingresos</string>
+	<string name="movimientos.gastos">Gastos</string>
+	<string name="movimientos.consultar">Consultar</string>
+	<string name="movimientos.concepto">Concepto</string>
+	<string name="movimientos.fecha_operacion">Fecha operación</string>
+	<string name="movimientos.fecha_valor">Fecha valor</string>
+	<string name="movimientos.importe">Importe</string>
+	<string name="movimientos.saldo">Saldo</string>
+	<string name="movimientos.menu.filtrar">Filtrar</string>
+	<string name="movimientos.info_cuenta">Cuenta </string>
+	<string name="movimientos.menu.ordenar_descendente">Cambiar ordenación</string>
+</resources>
